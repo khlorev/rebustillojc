@@ -1,0 +1,76 @@
+body {
+  font-family: 'Helvetica Neue', 'SF Pro Display', sans-serif; /* iOS-like sans serif */
+  background: linear-gradient(135deg, #FCE4EC, #F6C6D0, #D19AAE); 
+  /* pastel pink + pastel purple gradient */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.id-card {
+  width: 1150px; /* bigger box */
+  padding: 100px;
+  background: #fff;
+  border: 12px solid #D19AAE; /* pastel purple border */
+  border-radius: 50px;
+  box-shadow: 0 22px 44px rgba(0,0,0,0.25);
+  text-align: center;
+}
+
+.header-box {
+  background: linear-gradient(90deg, #D19AAE, #9B5E72); /* pastel purple banner */
+  padding: 25px;
+  border-radius: 20px;
+  margin-bottom: 50px;
+}
+
+.title {
+  font-size: 52px;
+  color: #fff; /* white text inside banner */
+  font-weight: 700; /* bold */
+  margin: 0;
+  letter-spacing: 3px;
+}
+
+.name {
+  font-size: 68px; /* biggest text for your name */
+  color: #9B5E72; /* plum highlight */
+  margin: 45px 0;
+  font-weight: 700; /* bold sans serif */
+}
+
+p, li {
+  color: #5A2F3A; /* midnight wine */
+  font-size: 28px;
+  margin: 18px 0;
+  line-height: 1.6;
+  font-weight: 600; /* bold sans serif like iOS */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.quote {
+  font-family: 'Brush Script MT', cursive; /* cursive calligraphy style */
+  font-size: 34px;
+  color: #9B5E72;
+  margin: 40px 0;
+}
+
+.gold {
+  color: goldenrod; /* highlight "God" in gold */
+  font-weight: bold;
+}
+
+.footer {
+  margin-top: 65px;
+  padding-top: 25px;
+  border-top: 7px solid #D19AAE;
+  font-size: 30px;
+  font-weight: 700;
+  color: #9B5E72;
+}
